@@ -9,6 +9,9 @@ body {
 }
 
 .content {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
 }
 
 .title-social {
@@ -27,6 +30,7 @@ body {
 
 .title {
     color: white;
+    font-size: 20px;
 }
 
 .grid-box {
@@ -48,7 +52,8 @@ body {
     font-weight: 600;
     background-color: white;
     color: blue;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
 
 }
 
